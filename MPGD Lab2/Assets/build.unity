@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 256553975}
   - component: {fileID: 256553974}
   - component: {fileID: 256553973}
-  - component: {fileID: 256553972}
+  - component: {fileID: 256553977}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -143,18 +143,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &256553972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 256553971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8e2035a744905340b4a975a77092a9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &256553973
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -233,6 +221,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &256553977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256553971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e2035a744905340b4a975a77092a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &421786438
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,6 +847,7 @@ GameObject:
   - component: {fileID: 2078732577}
   - component: {fileID: 2078732576}
   - component: {fileID: 2078732575}
+  - component: {fileID: 2078732578}
   m_Layer: 0
   m_Name: North Wall
   m_TagString: Untagged
@@ -932,3 +933,15 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2078732573}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2078732578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078732573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e2035a744905340b4a975a77092a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
